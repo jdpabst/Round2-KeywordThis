@@ -65,10 +65,12 @@ var getYear = function(){
 // Then use the bind function to bind the mustang to the function and save it in a varabile called getMustangYear
 // Console Log the results of the getPriusYear and getMustangYear to see that they are returning the correct years.
 
-
+let getPriusYear = getYear.bind(prius);
+let getMustangYear = getYear.bind(mustang);
 //Note(no tests)
   //Code Here
-
+console.log(getPriusYear());
+console.log(getMustangYear());
 
 
 //New Problem
