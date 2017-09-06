@@ -34,7 +34,15 @@
 
 
 // Write a constructor function, including method definitions, which will make the following function invocations function properly.
-
+function Car(make, model, year){
+  this.make = make,
+  this.model = model,
+  this.year = year,
+  this.move = 0,
+  this.moveCar = function(){
+    return this.move += 10;
+  }
+}
   //Function Invocations Here
 
 var prius = new Car('Toyota', 'Prius', 2011);
