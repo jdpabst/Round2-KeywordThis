@@ -1,15 +1,15 @@
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
-      //Answer
+      // It's basically a placeholder for an object. You can tell the code which object explicitly with call/bind/apply or you can use implicit context where your code just implies what object you are referring to.
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //Answer
+      // .call -> immediately invoked, uses parameters .apply -> same as call except an array instead of parameters .bind -> not immediately invoked, most commonly used, permanently binds things together into a new variable while originals are still intact.
 
   // 3) What does .bind do?
 
-      //Answer
+      // See above...
 
 
 //Next Problem
